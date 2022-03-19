@@ -16,7 +16,6 @@ Assignment 1:
 	- The programs write a massage in the file about the course guidelines.
 	- The programs close and delete the file and delete the directories.
 	
-	test nadav
 
 	
 
