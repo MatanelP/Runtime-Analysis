@@ -15,6 +15,8 @@ Assignment 1:
 	- The programs gets the status of the file.
 	- The programs write a massage in the file about the course guidelines.
 	- The programs close and delete the file and delete the directories.
+	
+	test nadav
 
 	
 
