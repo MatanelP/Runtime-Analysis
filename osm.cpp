@@ -88,21 +88,3 @@ double osm_syscall_time (unsigned int iterations)
   return ((double) end.tv_usec - (double) start.tv_usec) * 1000
          / (iterations * loop_factor);
 }
-
-int main (int argc, char *argv[])
-{
-  // Default (no args given):
-  int iterations = 20000;
-  if (argc == 2)
-    {
-      iterations = atoi (argv[1]);
-    }
-  std::cout << "Num of iterations: " << iterations << std::endl;
-  std::cout << "Time taken for simple addition in nano seconds: "
-            << osm_operation_time (iterations) << std::endl;
-  std::cout << "Time taken for empty function call in nano seconds: "
-            << osm_function_time (iterations) << std::endl;
-  std::cout << "Time taken for system call in nano seconds: "
-            << osm_syscall_time (iterations) << std::endl;
-  return 0;
-}

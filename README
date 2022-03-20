@@ -1,12 +1,12 @@
-matanel.pataki,
-Matanel Pataki (205951023),
+matanel.pataki, nmic2120
+Matanel Pataki (205951023), Nadav Michael (305792012)
 EX: 1
 
 FILES:
 Makefile - Including a 'clear' and 'tar' commands for the files.
 osm.cpp  - The implemented functions.
+graph.png - A graph comparing the different functions on different machines.
 README - Current file.
-
 REMARKS: none.
 
 ANSWERS:
@@ -18,7 +18,12 @@ Assignment 1:
 	- The program writes a massage in the file about the course guidelines.
 	- The program closes and delete the file and delete the directories.
 	- The program closes all related threads.
-	
+
+Assignment 2:
+    As we learned in class, by viewing the graph we are able to conclude
+    that using a VM is much more tasking, and it requires a lot more recourses.
+    Running directly on the machine of using a container will minimize the time
+    for every kind of operation.
 
 	
 
