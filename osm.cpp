@@ -92,7 +92,7 @@ double osm_syscall_time (unsigned int iterations)
 int main (int argc, char *argv[])
 {
   // Default (no args given):
-  int iterations = 2000;
+  int iterations = 20000;
   if (argc == 2)
     {
       iterations = atoi (argv[1]);
